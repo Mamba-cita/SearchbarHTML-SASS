@@ -1,0 +1,78 @@
+* {
+  paddding: 0;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: grey;
+  width: 100%;
+}
+
+.searchbar {
+  background-color: bisque;
+  height: auto;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 10px;
+  border: 1px solid azure;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px aqua;
+          box-shadow: 0px 0px 10px 0px aqua;
+}
+
+.searchbar .inputarea {
+  height: 40%;
+  width: 100%;
+  border-radius: 5px;
+  border: 0px solid azure;
+  margin: 5px;
+}
+
+.searchbar .inputarea .input {
+  height: 40%;
+  width: 94%;
+  border-radius: 5px;
+  border: 0px solid azure;
+  margin: 5px;
+  padding: 10px;
+  color: orange;
+}
+
+.searchbar .inputarea .btn {
+  height: 40%;
+  width: 3%;
+  border-radius: 5px;
+  border: 0px solid black;
+  background: beige;
+  padding: 10px;
+}
+
+.searchbar .inputarea .btn .fa-search {
+  color: blue;
+}
+
+.btn:hover {
+  background: lightblue;
+  color: black;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
